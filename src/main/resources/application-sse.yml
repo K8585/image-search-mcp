@@ -1,0 +1,10 @@
+# SSE 配置文件
+spring:
+  ai:
+    mcp:
+      server:
+        name: image-search-mcp
+        version: 0.0.1
+        type: SYNC
+# 需关闭 stdio 模式
+        stdio: false

@@ -1,0 +1,13 @@
+# stdio 模式
+spring:
+  ai:
+    mcp:
+      server:
+        name: image-search-mcp
+        version: 0.0.1
+        type: SYNC
+
+        stdio: true
+  main:
+    web-application-type: none
+    banner-mode: off

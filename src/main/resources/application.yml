@@ -1,0 +1,8 @@
+# 主配置文件,可以灵活指定激活哪套配置
+spring:
+  application:
+    name: image-search-mcp
+  profiles:
+    active: stdio # sse
+server:
+  port: 8127
